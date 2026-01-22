@@ -19,8 +19,8 @@ function App() {
         </SignedOut>
         <SignedIn>
           <SignOutButton />
+          <UserButton />
         </SignedIn>
-        <UserButton />
       </header>
     </>
   );
