@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from "react-router";
 import { Toaster } from "react-hot-toast";
 
 import HomePage from "./pages/HomePage";
-import ProblemPage from "./pages/ProblemPage";
+import ProblemsPage from "./pages/ProblemsPage";
 import DashboardPage from "./pages/DashboardPage";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         />
         <Route
           path="/problems"
-          element={isSignedIn ? <ProblemPage /> : <Navigate to={"/"} />}
+          element={isSignedIn ? <ProblemsPage /> : <Navigate to={"/"} />}
         />
       </Routes>
 
