@@ -217,7 +217,7 @@ function SessionPage() {
                                   </div>
 
                                   {example.explanation && (
-                                    <div className="pt-2 border-t border-r-base-300 mt-2">
+                                    <div className="pt-2 border-t border-base-300 mt-2">
                                       <span className="text-base-content/60 font-sans text-xs">
                                         <span className="font-semibold">
                                           Explanation
@@ -237,7 +237,7 @@ function SessionPage() {
                     {problemData?.constraints &&
                       problemData.constraints.length > 0 && (
                         <div className="bg-base-100 rounded-xl shadow-sm p-4 border border-base-300">
-                          <h2 className="text=xl font-bold mb-4 text-base-content">
+                          <h2 className="text-xl font-bold mb-4 text-base-content">
                             Constraints
                           </h2>
                           <ul className="space-y-2 text-base-content/90">
@@ -286,9 +286,9 @@ function SessionPage() {
             <div className="h-full bg-base-200 p-4 overflow-auto">
               {isInitializingCall ? (
                 <div className="h-full flex items-center justify-center">
-                  <div className="text">
+                  <div className="text-center">
                     <Loader2Icon className="size-12 mx-auto animate-spin text-primary mb-4" />
-                    <p className="text-lg">Connectin to video call...</p>
+                    <p className="text-lg">Connecting to video call...</p>
                   </div>
                 </div>
               ) : !streamClient || !call ? (
