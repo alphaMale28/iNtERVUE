@@ -24,9 +24,9 @@ function HomePage() {
               <SparklesIcon className="size-6 text-white" />
             </div>
             <div className="flex flex-col">
-              <sapn className="font-black text-xl bg-linear-to-r from-primary via-secondary to-accent bg-clip-text text-transparent font-mono tracking-wider">
+              <span className="font-black text-xl bg-linear-to-r from-primary via-secondary to-accent bg-clip-text text-transparent font-mono tracking-wider">
                 iNtERVUE
-              </sapn>
+              </span>
               <span className="text-xs text-base-content/60 font-medium -mt-1">
                 Code Together
               </span>
